@@ -1,0 +1,429 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3800 2400" width="3800" height="2400" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif">
+  <!-- FOND DU CANVAS FIGMA -->
+  <rect id="Canvas_Background" width="3800" height="2400" fill="#E5E5EA"/>
+
+  <!-- ===================================================================== -->
+  <!-- BOARD 1 : CHARTE GRAPHIQUE & ARBORESCENCE (APPLE CLINICAL DESIGN)     -->
+  <!-- ===================================================================== -->
+  <g id="01_Charte_Graphique_et_Arborescence" transform="translate(80, 100)">
+    <rect id="Bg_Charte" width="820" height="1024" rx="18" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="2"/>
+    
+    <!-- En-tête de la planche -->
+    <rect x="0" y="0" width="820" height="52" rx="18" fill="#1D1D1F"/>
+    <text x="35" y="31" fill="#F5F5F7" font-size="12" font-weight="600" font-family="'SF Mono', Menlo, monospace" letter-spacing="0.5">LIVRABLE ÉTAPE 1 — CHARTE GRAPHIQUE &amp; ARBORESCENCE (PROJET TI504N)</text>
+
+    <text x="45" y="95" fill="#86868B" font-size="12" font-weight="600" letter-spacing="1.2">SYSTÈME DE DESIGN — INSPIRATION APPLE HUMAN INTERFACE GUIDELINES</text>
+    <text x="45" y="132" fill="#1D1D1F" font-size="32" font-weight="700" letter-spacing="-0.8">BionicLab — Charte Graphique</text>
+    <line x1="45" y1="154" x2="775" y2="154" stroke="#D2D2D7" stroke-width="1.5"/>
+
+    <!-- 1. Palette de Couleurs -->
+    <text x="45" y="190" fill="#1D1D1F" font-size="15" font-weight="600">1. Palette de Couleurs (Blanc Clinique, Gris Titane &amp; Noir Carbone)</text>
+    
+    <!-- Swatch 1 : Fond Principal #F5F5F7 -->
+    <g id="Token_F5F5F7" transform="translate(45, 210)">
+      <rect width="134" height="90" rx="12" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="2"/>
+      <text x="6" y="114" fill="#1D1D1F" font-size="14" font-weight="700" font-family="'SF Mono', Menlo, monospace">#F5F5F7</text>
+      <text x="6" y="132" fill="#86868B" font-size="11">Fond Clinique (Surface)</text>
+    </g>
+
+    <!-- Swatch 2 : Blanc Pur #FFFFFF -->
+    <g id="Token_FFFFFF" transform="translate(194, 210)">
+      <rect width="134" height="90" rx="12" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="2"/>
+      <text x="6" y="114" fill="#1D1D1F" font-size="14" font-weight="700" font-family="'SF Mono', Menlo, monospace">#FFFFFF</text>
+      <text x="6" y="132" fill="#86868B" font-size="11">Blanc Pur (Cartes)</text>
+    </g>
+
+    <!-- Swatch 3 : Noir Carbone #1D1D1F -->
+    <g id="Token_1D1D1F" transform="translate(343, 210)">
+      <rect width="134" height="90" rx="12" fill="#1D1D1F"/>
+      <text x="6" y="114" fill="#1D1D1F" font-size="14" font-weight="700" font-family="'SF Mono', Menlo, monospace">#1D1D1F</text>
+      <text x="6" y="132" fill="#86868B" font-size="11">Noir Carbone (Texte/CTA)</text>
+    </g>
+
+    <!-- Swatch 4 : Gris Titane #86868B -->
+    <g id="Token_86868B" transform="translate(492, 210)">
+      <rect width="134" height="90" rx="12" fill="#86868B"/>
+      <text x="6" y="114" fill="#1D1D1F" font-size="14" font-weight="700" font-family="'SF Mono', Menlo, monospace">#86868B</text>
+      <text x="6" y="132" fill="#86868B" font-size="11">Gris Titane (Légendes)</text>
+    </g>
+
+    <!-- Swatch 5 : Bordure #D2D2D7 -->
+    <g id="Token_D2D2D7" transform="translate(641, 210)">
+      <rect width="134" height="90" rx="12" fill="#D2D2D7"/>
+      <text x="6" y="114" fill="#1D1D1F" font-size="14" font-weight="700" font-family="'SF Mono', Menlo, monospace">#D2D2D7</text>
+      <text x="6" y="132" fill="#86868B" font-size="11">Filet Aluminium (1px)</text>
+    </g>
+
+    <!-- 2. Typographies Apple -->
+    <text x="45" y="385" fill="#1D1D1F" font-size="15" font-weight="600">2. Typographies (Stack Apple Developer : SF Pro Display, SF Pro Text &amp; SF Mono)</text>
+    <rect x="45" y="402" width="730" height="145" rx="14" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="68" y="440" fill="#1D1D1F" font-size="26" font-weight="700" letter-spacing="-0.6">H1 — SF Pro Display Semibold (40px / line-height 1.08)</text>
+    <text x="68" y="474" fill="#1D1D1F" font-size="19" font-weight="600" letter-spacing="-0.3">H2 — SF Pro Display Medium (28px / Titres de sections)</text>
+    <text x="68" y="504" fill="#86868B" font-size="14">Corps de texte — SF Pro Text Regular (17px / Interlignage 1.47 / Couleur #86868B)</text>
+    <text x="68" y="529" fill="#1D1D1F" font-size="13" font-weight="600" font-family="'SF Mono', Menlo, monospace">Données techniques — SF Mono Regular (Mesures Newtons, Latence ms, Code)</text>
+
+    <!-- 3. Composants UI -->
+    <text x="45" y="585" fill="#1D1D1F" font-size="15" font-weight="600">3. Composants d'Interface (Boutons, Filtres &amp; Indicateurs)</text>
+    <rect x="45" y="605" width="210" height="44" rx="22" fill="#1D1D1F"/>
+    <text x="73" y="632" fill="#FFFFFF" font-size="13" font-weight="600">Action Primaire &rarr;</text>
+
+    <rect x="275" y="605" width="210" height="44" rx="22" fill="#FFFFFF" stroke="#1D1D1F" stroke-width="1.5"/>
+    <text x="303" y="632" fill="#1D1D1F" font-size="13" font-weight="600">Bouton Secondaire</text>
+
+    <rect x="505" y="611" width="165" height="32" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="526" y="631" fill="#1D1D1F" font-size="11" font-weight="600" font-family="'SF Mono', Menlo, monospace">● Homologué CE</text>
+
+    <!-- 4. Arborescence du Site (Max 2 niveaux) -->
+    <text x="45" y="695" fill="#1D1D1F" font-size="15" font-weight="600">4. Plan du Site &amp; Arborescence (Conforme : Profondeur max de 2 niveaux)</text>
+    <rect x="45" y="715" width="730" height="265" rx="14" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    
+    <!-- Niveau 0 -->
+    <rect x="305" y="738" width="210" height="52" rx="10" fill="#1D1D1F"/>
+    <text x="338" y="762" fill="#FFFFFF" font-size="12" font-weight="700">NIVEAU 0 : ACCUEIL</text>
+    <text x="372" y="779" fill="#86868B" font-size="11" font-family="'SF Mono', Menlo, monospace">index.html</text>
+
+    <!-- Lignes de liaison -->
+    <line x1="410" y1="790" x2="410" y2="825" stroke="#1D1D1F" stroke-width="2"/>
+    <line x1="160" y1="825" x2="660" y2="825" stroke="#1D1D1F" stroke-width="2"/>
+    <line x1="160" y1="825" x2="160" y2="855" stroke="#1D1D1F" stroke-width="2"/>
+    <line x1="410" y1="825" x2="410" y2="855" stroke="#1D1D1F" stroke-width="2"/>
+    <line x1="660" y1="825" x2="660" y2="855" stroke="#1D1D1F" stroke-width="2"/>
+
+    <!-- Niveau 1 : 3 Pages -->
+    <rect x="65" y="855" width="190" height="80" rx="10" fill="#F5F5F7" stroke="#1D1D1F" stroke-width="1.5"/>
+    <text x="80" y="880" fill="#86868B" font-size="10" font-weight="700" font-family="'SF Mono', Menlo, monospace">NIVEAU 1 (1 CLIC)</text>
+    <text x="80" y="900" fill="#1D1D1F" font-size="13" font-weight="700">technologies.html</text>
+    <text x="80" y="918" fill="#86868B" font-size="11">Catalogue &amp; Simulateur JS</text>
+
+    <rect x="315" y="855" width="190" height="80" rx="10" fill="#F5F5F7" stroke="#1D1D1F" stroke-width="1.5"/>
+    <text x="330" y="880" fill="#86868B" font-size="10" font-weight="700" font-family="'SF Mono', Menlo, monospace">NIVEAU 1 (1 CLIC)</text>
+    <text x="330" y="900" fill="#1D1D1F" font-size="13" font-weight="700">comparatif.html</text>
+    <text x="330" y="918" fill="#86868B" font-size="11">Grand Tableau HTML5</text>
+
+    <rect x="565" y="855" width="190" height="80" rx="10" fill="#F5F5F7" stroke="#1D1D1F" stroke-width="1.5"/>
+    <text x="580" y="880" fill="#86868B" font-size="10" font-weight="700" font-family="'SF Mono', Menlo, monospace">NIVEAU 1 (1 CLIC)</text>
+    <text x="580" y="900" fill="#1D1D1F" font-size="13" font-weight="700">a-propos.html</text>
+    <text x="580" y="918" fill="#86868B" font-size="11">Équipe &amp; Formulaire JS</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- BOARD 2 : PAGE 1 — ACCUEIL DESKTOP (1200 x 1024)                      -->
+  <!-- ===================================================================== -->
+  <g id="02_Desktop_Page1_Accueil" transform="translate(980, 100)">
+    <rect id="Bg_Accueil" width="1200" height="1024" rx="18" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="2"/>
+
+    <!-- HEADER COMMUN (72px - Style Apple translucide) -->
+    <g id="Header_Accueil">
+      <rect width="1200" height="72" rx="18" fill="#FFFFFF"/>
+      <line x1="0" y1="72" x2="1200" y2="72" stroke="#D2D2D7" stroke-width="1.5"/>
+      <rect x="60" y="22" width="28" height="28" rx="6" fill="#1D1D1F"/>
+      <text x="100" y="43" fill="#1D1D1F" font-size="20" font-weight="700" letter-spacing="-0.5">Bionic<tspan fill="#86868B">Lab</tspan></text>
+      
+      <!-- Barre de navigation vers les pages principales -->
+      <text x="610" y="42" fill="#1D1D1F" font-size="14" font-weight="600">Accueil</text>
+      <line x1="610" y1="52" x2="660" y2="52" stroke="#1D1D1F" stroke-width="2"/>
+      <text x="700" y="42" fill="#86868B" font-size="14">Technologies &amp; Simulateur</text>
+      <text x="905" y="42" fill="#86868B" font-size="14">Comparatif</text>
+      <text x="1020" y="42" fill="#86868B" font-size="14">À propos</text>
+    </g>
+
+    <!-- HERO / CARROUSEL JS (350px) -->
+    <g id="Carrousel_Hero" transform="translate(60, 100)">
+      <rect width="1080" height="340" rx="18" fill="#1D1D1F"/>
+      
+      <!-- Flèches Carrousel -->
+      <circle cx="45" cy="170" r="20" fill="#2C2C2E"/>
+      <text x="39" y="176" fill="#FFFFFF" font-size="16" font-weight="600">&lt;</text>
+      <circle cx="1035" cy="170" r="20" fill="#2C2C2E"/>
+      <text x="1029" y="176" fill="#FFFFFF" font-size="16" font-weight="600">&gt;</text>
+
+      <!-- Contenu Slide -->
+      <rect x="95" y="55" width="215" height="26" rx="13" fill="#2C2C2E"/>
+      <text x="112" y="72" fill="#F5F5F7" font-size="11" font-weight="600" font-family="'SF Mono', Menlo, monospace">INGÉNIERIE BIOMÉCANIQUE</text>
+      <text x="95" y="125" fill="#FFFFFF" font-size="34" font-weight="700" letter-spacing="-0.8">Prothèses Myoélectriques en Titane.</text>
+      <text x="95" y="162" fill="#86868B" font-size="17">Conception chirurgicale et décodage des impulsions nerveuses en temps réel.</text>
+      <rect x="95" y="198" width="230" height="44" rx="22" fill="#FFFFFF"/>
+      <text x="122" y="225" fill="#1D1D1F" font-size="14" font-weight="600">Ouvrir le Simulateur &rarr;</text>
+
+      <!-- Dots Carrousel -->
+      <rect x="500" y="305" width="28" height="8" rx="4" fill="#FFFFFF"/>
+      <circle cx="542" cy="309" r="4" fill="#86868B"/>
+      <circle cx="558" cy="309" r="4" fill="#86868B"/>
+    </g>
+
+    <!-- 3 CARTES DE PRÉSENTATION -->
+    <g id="Section_Cartes_Accueil" transform="translate(60, 470)">
+      <text x="0" y="25" fill="#1D1D1F" font-size="22" font-weight="700" letter-spacing="-0.4">Les 3 Piliers de l'Ingénierie Bionique</text>
+      
+      <!-- Carte 1 -->
+      <rect x="0" y="45" width="340" height="210" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+      <rect x="20" y="65" width="300" height="75" rx="10" fill="#F5F5F7"/>
+      <text x="95" y="108" fill="#86868B" font-size="12" font-family="'SF Mono', Menlo, monospace">[IMAGE : MAIN TITANE]</text>
+      <text x="20" y="168" fill="#1D1D1F" font-size="17" font-weight="700">01. Bionique Motrice</text>
+      <text x="20" y="192" fill="#86868B" font-size="13">Membres articulés en titane et carbone.</text>
+
+      <!-- Carte 2 -->
+      <rect x="370" y="45" width="340" height="210" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+      <rect x="390" y="65" width="300" height="75" rx="10" fill="#F5F5F7"/>
+      <text x="455" y="108" fill="#86868B" font-size="12" font-family="'SF Mono', Menlo, monospace">[IMAGE : CAPTEUR OPTIQUE]</text>
+      <text x="390" y="168" fill="#1D1D1F" font-size="17" font-weight="700">02. Bionique Sensorielle</text>
+      <text x="390" y="192" fill="#86868B" font-size="13">Rétines artificielles et retour haptique.</text>
+
+      <!-- Carte 3 -->
+      <rect x="740" y="45" width="340" height="210" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+      <rect x="760" y="65" width="300" height="75" rx="10" fill="#F5F5F7"/>
+      <text x="825" y="108" fill="#86868B" font-size="12" font-family="'SF Mono', Menlo, monospace">[IMAGE : PUCE CORTICALE]</text>
+      <text x="760" y="168" fill="#1D1D1F" font-size="17" font-weight="700">03. Neuro-Interfaces</text>
+      <text x="760" y="192" fill="#86868B" font-size="13">Décodage des ondes cérébrales en direct.</text>
+    </g>
+
+    <!-- SECTION VIDÉO HTML5 -->
+    <g id="Section_Video" transform="translate(60, 755)">
+      <rect width="1080" height="130" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+      <rect x="20" y="15" width="220" height="100" rx="10" fill="#1D1D1F"/>
+      <polygon points="120,50 120,80 145,65" fill="#FFFFFF"/>
+      <text x="270" y="48" fill="#86868B" font-size="11" font-weight="700" font-family="'SF Mono', Menlo, monospace">CAPSULE VIDÉO HTML5 (&lt;video&gt;)</text>
+      <text x="270" y="75" fill="#1D1D1F" font-size="19" font-weight="700">Comment les électrodes captent l'intention de mouvement</text>
+      <text x="270" y="100" fill="#86868B" font-size="14">Démonstration clinique intégrée nativement sans bibliothèque externe.</text>
+    </g>
+
+    <!-- FOOTER COMMUN (100px) -->
+    <g id="Footer_Accueil" transform="translate(0, 924)">
+      <rect width="1200" height="100" rx="18" fill="#FFFFFF"/>
+      <line x1="0" y1="0" x2="1200" y2="0" stroke="#D2D2D7" stroke-width="1.5"/>
+      <text x="60" y="45" fill="#1D1D1F" font-size="15" font-weight="700">BionicLab — EFREI Paris Panthéon-Assas</text>
+      <text x="60" y="68" fill="#86868B" font-size="12">© 2026 Projet Programmation Web TI504N — Youssef Mayassi &amp; Binôme</text>
+      <text x="910" y="55" fill="#1D1D1F" font-size="14" font-weight="600">Lien obligatoire : À propos &rarr;</text>
+    </g>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- BOARD 3 : MOBILE RESPONSIVE (393 x 852)                               -->
+  <!-- ===================================================================== -->
+  <g id="03_Mobile_Responsive_iPhone" transform="translate(2260, 100)">
+    <rect id="Bg_Mobile" width="393" height="852" rx="36" fill="#F5F5F7" stroke="#1D1D1F" stroke-width="4"/>
+    
+    <!-- Header Mobile avec Menu Burger -->
+    <rect x="0" y="0" width="393" height="68" rx="32" fill="#FFFFFF"/>
+    <line x1="0" y1="68" x2="393" y2="68" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="28" y="42" fill="#1D1D1F" font-size="18" font-weight="700">Bionic<tspan fill="#86868B">Lab</tspan></text>
+    <!-- Icône Burger (3 barres) -->
+    <line x1="335" y1="28" x2="363" y2="28" stroke="#1D1D1F" stroke-width="2.5"/>
+    <line x1="335" y1="37" x2="363" y2="37" stroke="#1D1D1F" stroke-width="2.5"/>
+    <line x1="335" y1="46" x2="363" y2="46" stroke="#1D1D1F" stroke-width="2.5"/>
+
+    <!-- Carrousel Mobile -->
+    <rect x="20" y="88" width="353" height="210" rx="16" fill="#1D1D1F"/>
+    <text x="40" y="128" fill="#86868B" font-size="10" font-weight="700" font-family="'SF Mono', Menlo, monospace">CARROUSEL MOBILE</text>
+    <text x="40" y="158" fill="#FFFFFF" font-size="17" font-weight="700">Prothèses Myoélectriques</text>
+    <text x="40" y="182" fill="#86868B" font-size="12">Adaptation responsive (Media Queries)</text>
+    <rect x="40" y="212" width="160" height="36" rx="18" fill="#FFFFFF"/>
+    <text x="64" y="235" fill="#1D1D1F" font-size="12" font-weight="600">Simuler &rarr;</text>
+
+    <!-- Cartes empilées en 1 colonne -->
+    <rect x="20" y="318" width="353" height="120" rx="14" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="40" y="355" fill="#1D1D1F" font-size="15" font-weight="700">01. Bionique Motrice</text>
+    <text x="40" y="380" fill="#86868B" font-size="12">Grille passée en 1 colonne sur mobile.</text>
+
+    <rect x="20" y="453" width="353" height="120" rx="14" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="40" y="490" fill="#1D1D1F" font-size="15" font-weight="700">02. Bionique Sensorielle</text>
+    <text x="40" y="515" fill="#86868B" font-size="12">Implants rétiniens et auditifs.</text>
+
+    <rect x="20" y="588" width="353" height="120" rx="14" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="40" y="625" fill="#1D1D1F" font-size="15" font-weight="700">03. Neuro-Interfaces</text>
+    <text x="40" y="650" fill="#86868B" font-size="12">Contrôle synaptique direct.</text>
+
+    <!-- Footer Mobile -->
+    <rect x="0" y="752" width="393" height="100" rx="32" fill="#FFFFFF"/>
+    <line x1="0" y1="752" x2="393" y2="752" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="95" y="795" fill="#1D1D1F" font-size="13" font-weight="600">Lien vers : À propos &amp; Contact</text>
+    <text x="115" y="820" fill="#86868B" font-size="11">© 2026 BionicLab Mobile</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- BOARD 4 : PAGE 2 — TECHNOLOGIES & SIMULATEUR JS (1100 x 900)          -->
+  <!-- ===================================================================== -->
+  <g id="04_Desktop_Page2_Technologies_Simulateur" transform="translate(80, 1220)">
+    <rect width="1100" height="900" rx="18" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect width="1100" height="70" rx="18" fill="#FFFFFF"/>
+    <line x1="0" y1="70" x2="1100" y2="70" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="45" y="42" fill="#1D1D1F" font-size="18" font-weight="700">Bionic<tspan fill="#86868B">Lab</tspan> — Page 2 : Catalogue &amp; Simulateur JS</text>
+
+    <!-- Barre de Filtres JS -->
+    <text x="45" y="115" fill="#1D1D1F" font-size="24" font-weight="700" letter-spacing="-0.5">Catalogue des Prothèses &amp; Implants</text>
+    <rect x="45" y="135" width="110" height="34" rx="17" fill="#1D1D1F"/>
+    <text x="73" y="157" fill="#FFFFFF" font-size="12" font-weight="600">Toutes</text>
+    <rect x="170" y="135" width="140" height="34" rx="17" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="195" y="157" fill="#1D1D1F" font-size="12" font-weight="500">Membre Sup.</text>
+    <rect x="325" y="135" width="140" height="34" rx="17" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="350" y="157" fill="#1D1D1F" font-size="12" font-weight="500">Exosquelettes</text>
+    <rect x="480" y="135" width="140" height="34" rx="17" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="505" y="157" fill="#1D1D1F" font-size="12" font-weight="500">Neuro-Implants</text>
+
+    <!-- Grille de Cartes -->
+    <rect x="45" y="190" width="320" height="220" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="65" y="230" fill="#86868B" font-size="11" font-weight="600" font-family="'SF Mono', Menlo, monospace">MODÈLE // NX-5</text>
+    <text x="65" y="260" fill="#1D1D1F" font-size="18" font-weight="700">Main Myoélectrique Nexus</text>
+    <text x="65" y="290" fill="#86868B" font-size="13">14 capteurs EMG • Force : 450 N • Latence : 12 ms</text>
+
+    <rect x="390" y="190" width="320" height="220" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="410" y="230" fill="#86868B" font-size="11" font-weight="600" font-family="'SF Mono', Menlo, monospace">MODÈLE // AT-80</text>
+    <text x="410" y="260" fill="#1D1D1F" font-size="18" font-weight="700">Exo-Jambes Atlas Titane</text>
+    <text x="410" y="290" fill="#86868B" font-size="13">Assistance +80 kg • Autonomie : 16 heures</text>
+
+    <rect x="735" y="190" width="320" height="220" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="755" y="230" fill="#86868B" font-size="11" font-weight="600" font-family="'SF Mono', Menlo, monospace">MODÈLE // AR-10</text>
+    <text x="755" y="260" fill="#1D1D1F" font-size="18" font-weight="700">Implant Rétinien Argus</text>
+    <text x="755" y="290" fill="#86868B" font-size="13">Micro-électrodes • Résolution : 1024 pixels</text>
+
+    <!-- SIMULATEUR BIONIQUE JS -->
+    <rect x="45" y="445" width="1010" height="330" rx="18" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="2"/>
+    <text x="75" y="490" fill="#86868B" font-size="11" font-weight="700" font-family="'SF Mono', Menlo, monospace">OUTIL INTERACTIF EN JAVASCRIPT PUR</text>
+    <text x="75" y="520" fill="#1D1D1F" font-size="22" font-weight="700">Simulateur de Réponse Nerveuse &amp; Force Bionique</text>
+    
+    <!-- Curseurs gauche -->
+    <text x="75" y="570" fill="#1D1D1F" font-size="14" font-weight="500">1. Intensité du signal myoélectrique (mV) :</text>
+    <rect x="75" y="585" width="420" height="8" rx="4" fill="#E5E5EA"/>
+    <rect x="75" y="585" width="280" height="8" rx="4" fill="#1D1D1F"/>
+    <circle cx="355" cy="589" r="11" fill="#1D1D1F"/>
+
+    <text x="75" y="645" fill="#1D1D1F" font-size="14" font-weight="500">2. Capacité de la batterie (Wh) :</text>
+    <rect x="75" y="660" width="420" height="8" rx="4" fill="#E5E5EA"/>
+    <rect x="75" y="660" width="340" height="8" rx="4" fill="#1D1D1F"/>
+    <circle cx="415" cy="664" r="11" fill="#1D1D1F"/>
+
+    <!-- Résultat droite -->
+    <rect x="560" y="545" width="455" height="190" rx="14" fill="#1D1D1F"/>
+    <text x="590" y="588" fill="#86868B" font-size="12" font-weight="600" font-family="'SF Mono', Menlo, monospace">FORCE DE PRÉHENSION CALCULÉE :</text>
+    <text x="590" y="638" fill="#FFFFFF" font-size="34" font-weight="700" font-family="'SF Mono', Menlo, monospace">68.4 kg (670 N)</text>
+    <text x="590" y="678" fill="#86868B" font-size="14" font-family="'SF Mono', Menlo, monospace">● Latence : 11 ms | Autonomie : 18h 30m</text>
+
+    <!-- Footer -->
+    <rect x="0" y="820" width="1100" height="80" rx="18" fill="#FFFFFF"/>
+    <line x1="0" y1="820" x2="1100" y2="820" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="45" y="865" fill="#86868B" font-size="13">Footer commun avec lien obligatoire vers À propos</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- BOARD 5 : PAGE 3 — COMPARATIF & TABLEAU HTML (1100 x 900)             -->
+  <!-- ===================================================================== -->
+  <g id="05_Desktop_Page3_Comparatif_Tableau" transform="translate(1240, 1220)">
+    <rect width="1100" height="900" rx="18" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect width="1100" height="70" rx="18" fill="#FFFFFF"/>
+    <line x1="0" y1="70" x2="1100" y2="70" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="45" y="42" fill="#1D1D1F" font-size="18" font-weight="700">Bionic<tspan fill="#86868B">Lab</tspan> — Page 3 : Tableau Comparatif Biologique vs Bionique</text>
+
+    <text x="45" y="120" fill="#1D1D1F" font-size="24" font-weight="700" letter-spacing="-0.5">Matrice de Performance (&lt;table&gt; obligatoire)</text>
+    <text x="45" y="148" fill="#86868B" font-size="14">Cliquez sur un en-tête de colonne pour trier dynamiquement en JavaScript.</text>
+
+    <!-- TABLEAU HTML5 -->
+    <g id="Tableau_HTML" transform="translate(45, 175)">
+      <rect width="1010" height="420" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+      <!-- En-tête du tableau -->
+      <rect width="1010" height="55" rx="14" fill="#1D1D1F"/>
+      <text x="25" y="34" fill="#FFFFFF" font-size="12" font-weight="600" font-family="'SF Mono', Menlo, monospace">ORGANE / SYSTÈME ↕</text>
+      <text x="240" y="34" fill="#86868B" font-size="12" font-weight="600" font-family="'SF Mono', Menlo, monospace">CAPACITÉ BIOLOGIQUE ↕</text>
+      <text x="470" y="34" fill="#FFFFFF" font-size="12" font-weight="600" font-family="'SF Mono', Menlo, monospace">PROTHÈSE BIONIQUE ↕</text>
+      <text x="700" y="34" fill="#86868B" font-size="12" font-weight="600" font-family="'SF Mono', Menlo, monospace">LATENCE NERVEUSE ↕</text>
+      <text x="890" y="34" fill="#FFFFFF" font-size="12" font-weight="600" font-family="'SF Mono', Menlo, monospace">STATUT</text>
+
+      <!-- Ligne 1 -->
+      <line x1="0" y1="125" x2="1010" y2="125" stroke="#D2D2D7"/>
+      <text x="25" y="95" fill="#1D1D1F" font-size="14" font-weight="700">Main &amp; Poignet</text>
+      <text x="240" y="95" fill="#86868B" font-size="14">Force : ~40 kg (400 N)</text>
+      <text x="470" y="95" fill="#1D1D1F" font-size="14" font-weight="700">Force : 65 kg (Titane)</text>
+      <text x="700" y="95" fill="#86868B" font-size="14" font-family="'SF Mono', Menlo, monospace">12 ms (vs 20 ms)</text>
+      <rect x="880" y="77" width="110" height="26" rx="13" fill="#F5F5F7" stroke="#D2D2D7"/>
+      <text x="898" y="94" fill="#1D1D1F" font-size="11" font-weight="600">Homologué</text>
+
+      <!-- Ligne 2 -->
+      <line x1="0" y1="195" x2="1010" y2="195" stroke="#D2D2D7"/>
+      <text x="25" y="165" fill="#1D1D1F" font-size="14" font-weight="700">Articulation Genou</text>
+      <text x="240" y="165" fill="#86868B" font-size="14">Course : ~28 km/h max</text>
+      <text x="470" y="165" fill="#1D1D1F" font-size="14" font-weight="700">Lame Carbone : 42 km/h</text>
+      <text x="700" y="165" fill="#86868B" font-size="14" font-family="'SF Mono', Menlo, monospace">8 ms (Gyro)</text>
+      <rect x="880" y="147" width="110" height="26" rx="13" fill="#F5F5F7" stroke="#D2D2D7"/>
+      <text x="898" y="164" fill="#1D1D1F" font-size="11" font-weight="600">Homologué</text>
+
+      <!-- Ligne 3 -->
+      <line x1="0" y1="265" x2="1010" y2="265" stroke="#D2D2D7"/>
+      <text x="25" y="235" fill="#1D1D1F" font-size="14" font-weight="700">Rétine Optique</text>
+      <text x="240" y="235" fill="#86868B" font-size="14">Spectre : 400 - 700 nm</text>
+      <text x="470" y="235" fill="#1D1D1F" font-size="14" font-weight="700">350 - 1100 nm (IR)</text>
+      <text x="700" y="235" fill="#86868B" font-size="14" font-family="'SF Mono', Menlo, monospace">15 ms</text>
+      <rect x="880" y="217" width="110" height="26" rx="13" fill="#1D1D1F"/>
+      <text x="898" y="234" fill="#FFFFFF" font-size="11" font-weight="600">Prototype</text>
+
+      <!-- Ligne 4 -->
+      <text x="25" y="305" fill="#1D1D1F" font-size="14" font-weight="700">Oreille Interne</text>
+      <text x="240" y="305" fill="#86868B" font-size="14">20 Hz à 20 000 Hz</text>
+      <text x="470" y="305" fill="#1D1D1F" font-size="14" font-weight="700">Filtrage sélectif actif</text>
+      <text x="700" y="305" fill="#86868B" font-size="14" font-family="'SF Mono', Menlo, monospace">5 ms</text>
+      <rect x="880" y="287" width="110" height="26" rx="13" fill="#F5F5F7" stroke="#D2D2D7"/>
+      <text x="898" y="304" fill="#1D1D1F" font-size="11" font-weight="600">Homologué</text>
+    </g>
+
+    <!-- Footer -->
+    <rect x="0" y="820" width="1100" height="80" rx="18" fill="#FFFFFF"/>
+    <line x1="0" y1="820" x2="1100" y2="820" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="45" y="865" fill="#86868B" font-size="13">Footer commun avec lien obligatoire vers À propos</text>
+  </g>
+
+  <!-- ===================================================================== -->
+  <!-- BOARD 6 : PAGE 4 — À PROPOS & FORMULAIRE (1100 x 900)                 -->
+  <!-- ===================================================================== -->
+  <g id="06_Desktop_Page4_A_Propos_Formulaire" transform="translate(2400, 1220)">
+    <rect width="1100" height="900" rx="18" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="2"/>
+    
+    <!-- Header -->
+    <rect width="1100" height="70" rx="18" fill="#FFFFFF"/>
+    <line x1="0" y1="70" x2="1100" y2="70" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="45" y="42" fill="#1D1D1F" font-size="18" font-weight="700">Bionic<tspan fill="#86868B">Lab</tspan> — Page 4 : Équipe &amp; Formulaire</text>
+
+    <!-- Présentation du Binôme -->
+    <text x="45" y="115" fill="#1D1D1F" font-size="22" font-weight="700" letter-spacing="-0.4">1. L'Équipe du Projet (Obligatoire)</text>
+    <rect x="45" y="135" width="490" height="140" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="70" y="170" fill="#86868B" font-size="11" font-weight="700" font-family="'SF Mono', Menlo, monospace">MEMBRE 01 — ÉTUDIANT INGÉNIEUR</text>
+    <text x="70" y="198" fill="#1D1D1F" font-size="19" font-weight="700">Youssef Mayassi</text>
+    <text x="70" y="225" fill="#86868B" font-size="13">Rôle : Accueil, Carrousel JS, Page Technologies &amp; Simulateur.</text>
+
+    <rect x="565" y="135" width="490" height="140" rx="16" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="590" y="170" fill="#86868B" font-size="11" font-weight="700" font-family="'SF Mono', Menlo, monospace">MEMBRE 02 — ÉTUDIANT INGÉNIEUR</text>
+    <text x="590" y="198" fill="#1D1D1F" font-size="19" font-weight="700">Binôme</text>
+    <text x="590" y="225" fill="#86868B" font-size="13">Rôle : Page Comparatif (Tableau), Formulaire JS &amp; Responsive.</text>
+
+    <!-- Formulaire HTML5 -->
+    <text x="45" y="320" fill="#1D1D1F" font-size="22" font-weight="700" letter-spacing="-0.4">2. Configuration de Prothèse (&lt;form&gt;)</text>
+    <rect x="45" y="340" width="1010" height="440" rx="18" fill="#FFFFFF" stroke="#D2D2D7" stroke-width="1.5"/>
+
+    <!-- Champs du formulaire -->
+    <text x="75" y="380" fill="#1D1D1F" font-size="13" font-weight="600">Nom complet *</text>
+    <rect x="75" y="392" width="440" height="42" rx="10" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1.5"/>
+
+    <text x="550" y="380" fill="#1D1D1F" font-size="13" font-weight="600">Email professionnel / académique *</text>
+    <rect x="550" y="392" width="470" height="42" rx="10" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1.5"/>
+
+    <text x="75" y="465" fill="#1D1D1F" font-size="13" font-weight="600">Système bionique souhaité *</text>
+    <rect x="75" y="477" width="440" height="42" rx="10" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="95" y="503" fill="#86868B" font-size="13">-- Choisir une catégorie bionique --</text>
+
+    <text x="550" y="465" fill="#1D1D1F" font-size="13" font-weight="600">Date d'essai souhaitée *</text>
+    <rect x="550" y="477" width="470" height="42" rx="10" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1.5"/>
+
+    <text x="75" y="555" fill="#1D1D1F" font-size="13" font-weight="600">Spécifications techniques &amp; besoins :</text>
+    <rect x="75" y="567" width="945" height="90" rx="10" fill="#F5F5F7" stroke="#D2D2D7" stroke-width="1.5"/>
+
+    <!-- Bouton Submit -->
+    <rect x="75" y="685" width="945" height="50" rx="25" fill="#1D1D1F"/>
+    <text x="395" y="716" fill="#FFFFFF" font-size="15" font-weight="600">Transmettre le dossier technique &rarr;</text>
+
+    <!-- Footer -->
+    <rect x="0" y="820" width="1100" height="80" rx="18" fill="#FFFFFF"/>
+    <line x1="0" y1="820" x2="1100" y2="820" stroke="#D2D2D7" stroke-width="1.5"/>
+    <text x="45" y="865" fill="#86868B" font-size="13">Footer commun avec lien obligatoire vers À propos</text>
+  </g>
+</svg>
